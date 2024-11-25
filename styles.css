@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2e7d32; /* Koyu yeşil */
+    color: white;
+}
+
+header {
+    background-color: #1b5e20;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #388e3c;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #1b5e20;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav li:hover {
+    background-color: #c8e6c9;
+}
+
+#content {
+    padding: 20px;
+    text-align: center;
+}
+
+#backButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #1b5e20;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#backButton:hover {
+    background-color: #c8e6c9;
+}
