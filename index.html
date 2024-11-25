@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çevresel Katkı Puanlama Sistemi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ÇEVRESEL KATKI PUANLAMA SİSTEMİ</h1>
+    </header>
+
+    <!-- Menü Tuşu -->
+    <nav>
+        <ul>
+            <li onclick="navigate('home')">Ana Sayfa</li>
+            <li onclick="navigate('info')">Bilgilendirme</li>
+            <li onclick="navigate('login')">Veri Girişi</li>
+            <li onclick="navigate('register')">Kayıt Olma</li>
+        </ul>
+    </nav>
+
+    <!-- Dinamik İçerik Alanı -->
+    <section id="content">
+        <h2>Hoş Geldiniz!</h2>
+        <p>Çevresel katkınızı görmek için yukarıdaki menüyü kullanın.</p>
+    </section>
+
+    <!-- Geri Butonu -->
+    <button id="backButton" onclick="goBack()" style="display: none;">Geri Dön</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
